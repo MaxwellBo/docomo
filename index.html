@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoCoMo P903iTV</title>
+  <style>
+    iframe {
+      max-width: 600px;
+      width: 100%;
+      height: 400px;
+      border: 1px solid #ddd;
+    }
+
+    img {
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+    }
+
+    .pictograph {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>DoCoMo P903iTV visual assets</h1>
+
+  <p><a href="https://archive.org/details/docomo-P903iTV">https://archive.org/details/docomo-P903iTV</a></p>
+
+  <section>
+    <h2>Decomail pictographs</h2>
+    <div id="pictographs">
+    </div>
+  </section>
+
+  <script>
+    const PICTOGRAPHS = `
+DIMG0001.GIF
+DIMG0002.GIF
+DIMG0003.GIF
+DIMG0004.GIF
+DIMG0005.GIF
+DIMG0006.GIF
+DIMG0007.GIF
+DIMG0008.GIF
+DIMG0009.GIF
+DIMG0010.GIF
+DIMG0011.GIF
+DIMG0012.GIF
+DIMG0013.GIF
+DIMG0014.GIF
+DIMG0015.GIF
+DIMG0016.GIF
+DIMG0017.GIF
+DIMG0018.GIF
+DIMG0019.GIF
+DIMG0020.GIF
+DIMG0021.GIF
+DIMG0022.GIF
+DIMG0023.GIF
+DIMG0024.GIF
+DIMG0025.GIF
+DIMG0026.GIF
+DIMG0027.GIF
+DIMG0028.GIF
+DIMG0029.GIF
+DIMG0030.GIF
+DIMG0031.GIF
+DIMG0032.GIF
+DIMG0033.GIF
+DIMG0034.GIF
+DIMG0035.GIF
+DIMG0036.GIF
+DIMG0037.GIF
+DIMG0038.GIF
+DIMG0039.GIF
+DIMG0040.GIF
+DIMG0041.GIF
+DIMG0042.GIF
+DIMG0043.GIF
+DIMG0044.GIF
+DIMG0045.GIF
+DIMG0046.GIF
+DIMG0047.GIF
+DIMG0048.GIF
+DIMG0049.GIF
+DIMG0050.GIF
+DIMG0051.GIF
+DIMG0052.GIF
+DIMG0053.GIF
+DIMG0054.GIF
+DIMG0055.GIF
+DIMG0056.GIF
+DIMG0057.GIF
+DIMG0058.GIF
+DIMG0059.GIF
+DIMG0060.GIF
+DIMG0061.GIF
+DIMG0062.GIF
+DIMG0063.GIF
+DIMG0064.GIF
+DIMG0065.GIF
+DIMG0066.GIF
+DIMG0067.GIF
+DIMG0068.GIF
+DIMG0069.GIF
+DIMG0070.GIF
+DIMG0071.GIF
+DIMG0072.GIF
+DIMG0073.GIF
+DIMG0074.GIF
+DIMG0075.GIF
+DIMG0076.GIF
+DIMG0077.GIF
+DIMG0078.GIF
+DIMG0079.GIF
+DIMG0080.GIF
+DIMG0081.GIF
+DIMG0082.GIF
+DIMG0083.GIF
+DIMG0084.GIF
+DIMG0085.GIF
+DIMG0086.GIF
+DIMG0087.GIF
+DIMG0088.GIF
+DIMG0089.GIF
+DIMG0090.GIF
+DIMG0091.GIF
+DIMG0092.GIF
+DIMG0093.GIF
+DIMG0094.GIF
+DIMG0095.GIF
+DIMG0096.GIF
+DIMG0097.GIF
+DIMG0098.GIF
+DIMG0099.GIF
+DIMG0100.GIF
+DIMG0101.GIF
+DIMG0102.GIF
+DIMG0103.GIF
+DIMG0104.GIF
+DIMG0105.GIF
+DIMG0106.GIF
+DIMG0107.GIF
+DIMG0108.GIF
+DIMG0109.GIF
+DIMG0110.GIF
+DIMG0111.GIF
+DIMG0112.GIF
+DIMG0113.GIF
+DIMG0114.GIF
+DIMG0115.GIF
+DIMG0116.GIF
+DIMG0117.GIF
+DIMG0118.GIF
+DIMG0119.GIF
+DIMG0120.GIF
+DIMG0121.GIF
+DIMG0122.GIF
+DIMG0123.GIF
+DIMG0124.GIF
+DIMG0125.GIF
+DIMG0126.GIF
+DIMG0127.GIF
+DIMG0128.GIF
+DIMG0129.GIF
+DIMG0130.GIF
+DIMG0131.GIF
+DIMG0132.GIF
+DIMG0133.GIF
+DIMG0134.GIF
+DIMG0135.GIF
+DIMG0136.GIF
+DIMG0137.GIF
+DIMG0138.GIF
+DIMG0139.GIF
+DIMG0140.GIF
+DIMG0141.GIF
+DIMG0142.GIF
+DIMG0143.GIF
+DIMG0144.GIF
+DIMG0145.GIF
+DIMG0146.GIF
+DIMG0147.GIF
+DIMG0148.GIF
+DIMG0149.GIF
+DIMG0150.GIF
+DIMG0151.GIF
+DIMG0152.GIF
+DIMG0153.GIF
+DIMG0154.GIF
+DIMG0155.GIF
+DIMG0156.GIF
+DIMG0157.GIF
+DIMG0158.GIF
+DIMG0159.GIF
+DIMG0160.GIF
+DIMG0161.GIF
+DIMG0162.GIF
+DIMG0163.GIF
+DIMG0164.GIF
+DIMG0165.GIF
+DIMG0166.GIF
+DIMG0167.GIF
+DIMG0168.GIF
+DIMG0169.GIF
+DIMG0170.GIF
+DIMG0171.GIF
+DIMG0172.GIF
+DIMG0173.GIF
+DIMG0174.GIF
+DIMG0175.GIF
+DIMG0176.GIF
+DIMG0177.GIF
+DIMG0178.GIF
+DIMG0179.GIF
+DIMG0180.GIF
+DIMG0181.GIF
+DIMG0182.GIF
+DIMG0183.GIF
+DIMG0184.GIF
+DIMG0185.GIF
+DIMG0186.GIF
+DIMG0187.GIF
+DIMG0188.GIF
+DIMG0189.GIF
+DIMG0190.GIF
+DIMG0191.GIF
+DIMG0192.GIF
+DIMG0193.GIF
+DIMG0194.GIF
+DIMG0195.GIF
+DIMG0196.GIF
+DIMG0197.GIF
+DIMG0198.GIF
+DIMG0199.GIF
+DIMG0200.GIF
+DIMG0201.GIF
+DIMG0202.GIF
+DIMG0203.GIF
+DIMG0204.GIF
+DIMG0205.GIF
+DIMG0206.GIF
+DIMG0207.GIF
+DIMG0208.GIF
+DIMG0209.GIF
+DIMG0210.GIF
+DIMG0211.GIF
+DIMG0212.GIF
+DIMG0213.GIF
+DIMG0214.GIF
+DIMG0215.GIF
+DIMG0216.GIF
+DIMG0217.GIF
+DIMG0218.GIF
+DIMG0219.GIF
+DIMG0220.GIF
+DIMG0221.GIF
+DIMG0222.GIF
+DIMG0223.GIF
+DIMG0224.GIF
+DIMG0225.GIF
+DIMG0226.GIF
+DIMG0227.GIF
+DIMG0228.GIF
+DIMG0229.GIF
+DIMG0230.GIF
+DIMG0231.GIF
+DIMG0232.GIF
+DIMG0233.GIF
+DIMG0234.GIF
+DIMG0235.GIF
+DIMG0236.GIF
+DIMG0237.GIF
+DIMG0238.GIF
+DIMG0239.GIF
+DIMG0240.GIF
+DIMG0241.GIF
+DIMG0242.GIF
+DIMG0243.GIF
+DIMG0244.GIF
+DIMG0245.GIF
+DIMG0246.GIF
+DIMG0247.GIF
+DIMG0248.GIF
+DIMG0249.GIF
+DIMG0250.GIF
+DIMG0251.GIF
+DIMG0252.GIF
+DIMG0253.GIF
+DIMG0254.GIF
+DIMG0255.GIF
+DIMG0256.GIF
+DIMG0257.GIF
+DIMG0258.GIF
+DIMG0259.GIF
+DIMG0260.GIF
+DIMG0261.GIF
+DIMG0262.GIF
+DIMG0263.GIF
+DIMG0264.GIF
+DIMG0265.GIF
+DIMG0266.GIF
+DIMG0267.GIF
+DIMG0268.GIF
+DIMG0269.GIF
+DIMG0270.GIF
+DIMG0271.GIF
+DIMG0272.GIF
+DIMG0273.GIF
+DIMG0274.GIF
+DIMG0275.GIF
+DIMG0276.GIF
+DIMG0277.GIF
+DIMG0278.GIF
+DIMG0279.GIF
+DIMG0280.GIF
+DIMG0281.GIF
+DIMG0282.GIF
+DIMG0283.GIF
+DIMG0284.GIF
+DIMG0285.GIF
+DIMG0286.GIF
+DIMG0287.GIF
+DIMG0288.GIF
+DIMG0289.GIF
+DIMG0290.GIF
+DIMG0291.GIF
+DIMG0292.GIF
+DIMG0293.GIF
+DIMG0294.GIF
+DIMG0295.GIF
+DIMG0296.GIF
+DIMG0297.GIF
+DIMG0298.GIF
+DIMG0299.GIF
+DIMG0300.GIF
+DIMG0301.GIF
+DIMG0302.GIF
+DIMG0303.GIF
+DIMG0304.GIF
+DIMG0305.GIF
+DIMG0306.GIF
+DIMG0307.GIF
+DIMG0308.GIF
+DIMG0309.GIF
+DIMG0310.GIF
+DIMG0311.GIF
+DIMG0312.GIF
+DIMG0313.GIF
+DIMG0314.GIF
+DIMG0315.GIF
+DIMG0316.GIF
+DIMG0317.GIF
+DIMG0318.GIF
+DIMG0319.GIF
+DIMG0320.GIF
+DIMG0321.GIF
+DIMG0322.GIF
+DIMG0323.GIF
+DIMG0324.GIF
+DIMG0325.GIF
+DIMG0326.GIF
+DIMG0327.GIF
+DIMG0328.GIF
+DIMG0329.GIF
+DIMG0330.GIF
+DIMG0331.GIF
+DIMG0332.GIF
+DIMG0333.GIF
+DIMG0334.GIF
+DIMG0335.GIF
+DIMG0336.GIF
+DIMG0337.GIF
+DIMG0338.GIF
+DIMG0339.GIF
+DIMG0340.GIF
+DIMG0341.GIF
+DIMG0342.GIF
+DIMG0343.GIF
+DIMG0344.GIF
+DIMG0345.GIF
+DIMG0346.GIF
+DIMG0347.GIF
+DIMG0348.GIF
+DIMG0349.GIF
+DIMG0350.GIF
+DIMG0351.GIF
+DIMG0352.GIF
+DIMG0353.GIF
+DIMG0354.GIF
+DIMG0355.GIF
+DIMG0356.GIF
+DIMG0357.GIF
+DIMG0358.GIF
+DIMG0359.GIF
+DIMG0360.GIF
+DIMG0361.GIF
+DIMG0362.GIF
+DIMG0363.GIF
+DIMG0364.GIF
+DIMG0365.GIF
+DIMG0366.GIF
+DIMG0367.GIF
+DIMG0368.GIF
+DIMG0369.GIF
+DIMG0370.GIF
+DIMG0371.GIF
+DIMG0372.GIF
+DIMG0373.GIF
+DIMG0374.GIF
+DIMG0375.GIF
+DIMG0376.GIF
+DIMG0377.GIF
+DIMG0378.GIF
+DIMG0379.GIF
+DIMG0380.GIF
+DIMG0381.GIF
+DIMG0382.GIF
+DIMG0383.GIF
+DIMG0384.GIF
+DIMG0385.GIF
+DIMG0386.GIF
+DIMG0387.GIF
+DIMG0388.GIF
+DIMG0389.GIF
+DIMG0390.GIF
+DIMG0391.GIF
+DIMG0392.GIF
+DIMG0393.GIF
+DIMG0394.GIF
+DIMG0395.GIF
+DIMG0396.GIF
+DIMG0397.GIF
+DIMG0398.GIF
+DIMG0399.GIF
+DIMG0400.GIF
+`
+    // Load all pictographs on page load
+    document.addEventListener('DOMContentLoaded', function () {
+      const gallery = document.getElementById('pictographs');
+      console.log(gallery)
+      const pictographList = PICTOGRAPHS.trim().split('\n');
+
+      pictographList.forEach((filename, index) => {
+        const link = document.createElement('a');
+        link.href = `Decomail-Pictograph/${filename.trim()}`;
+
+        const img = document.createElement('img');
+        img.src = `Decomail-Pictograph/${filename.trim()}`;
+        img.alt = filename.trim();
+        img.classList.add('pictograph');
+
+        link.appendChild(img);
+        gallery.appendChild(link);
+      });
+    });
+  </script>
+
+  <section>
+    <h2>Decomail pictures</h2>
+    <div id="pictures">
+    </div>
+  </section>
+
+
+  <script>
+    const PICTURES = `1FL0154.gif
+1FL0155.gif
+1FL0156.gif
+1FL0157.gif
+1FL0158.gif
+1FL0159.gif
+1FL0160.gif
+1FL0161.gif
+1FL0162.gif
+1FL0163.gif
+1FL0164.gif
+1FL0165.gif
+1FL0166.gif
+1FL0167.gif
+1FL0168.gif
+1FL0169.gif
+1FL0170.gif
+1FL0171.gif
+1FL0172.gif
+1FL0173.gif
+1FL0174.gif
+1FL0175.gif
+1FL0176.gif
+1FL0177.gif
+1FL0178.gif
+1FL0179.gif
+1FL0180.gif
+1FL0181.gif
+1FL0182.gif
+1FL0183.gif
+1FL0184.gif
+1FL0185.gif
+1FL0186.gif
+1FL0187.gif
+1FL0188.gif
+1FL0189.gif
+1FL0190.gif
+1FL0191.gif
+1FL0192.gif
+1FL0193.gif
+1FL0194.gif
+1FL0195.gif
+1FL0196.gif
+1FL0197.gif
+1FL0198.gif
+1FL0199.gif
+1FL0200.gif
+1FL0201.gif
+1FL0202.gif
+1FL0203.gif
+1FL0204.gif
+1FL0205.gif
+1FL0206.gif
+1FL0207.gif
+1FL0208.gif
+1FL0209.gif
+1FL0210.gif
+1FL0211.gif
+1FL0212.gif
+1FL0213.gif
+1FL0214.gif
+1FL0215.gif
+1FL0216.gif
+1FL0217.gif
+1FL0218.gif
+1FL0219.gif
+1FL0220.gif
+1FL0221.gif
+1FL0222.gif
+1FL0223.gif
+1FL0224.gif
+1FL0225.gif
+1FL0226.gif
+1FL0227.gif
+1FL0228.gif
+1FL0229.gif
+1FL0230.gif
+1FL0231.gif
+1FL0232.gif
+1FL0233.gif
+`
+    // Load all pictures on page load
+    document.addEventListener('DOMContentLoaded', function () {
+      const pictures = document.getElementById('pictures');
+      const pictureList = PICTURES.trim().split('\n');
+
+      pictureList.forEach((filename, index) => {
+        const link = document.createElement('a');
+        link.href = `Decomail-Picture/${filename.trim()}`;
+
+        const img = document.createElement('img');
+        img.src = `Decomail-Picture/${filename.trim()}`;
+        img.alt = filename.trim();
+
+        link.appendChild(img);
+        pictures.appendChild(link);
+      });
+    });
+  </script>
+
+
+  <section>
+    <h2>Documents</h2>
+    <div class="gallery">
+      <a href="Documents/PDFDC001.PDF"><img src="Documents/PDFDC001.JPG" alt="Document 1"></a>
+      <a href="Documents/PDFDC002.PDF"><img src="Documents/PDFDC002.JPG" alt="Document 2"></a>
+      <a href="Documents/PDFDC003.PDF"><img src="Documents/PDFDC003.JPG" alt="Document 3"></a>
+      <a href="Documents/PDFDC004.PDF"><img src="Documents/PDFDC004.JPG" alt="Document 4"></a>
+      <a href="Documents/PDFDC005.PDF"><img src="Documents/PDFDC005.JPG" alt="Document 5"></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Email templates</h2>
+    <ul>
+      <li><iframe src="Email Templates/Are You All Right.html" title="Are You All Right"></iframe> (<a
+          href="Email Templates/Are You All Right.html">HTML</a>) (<a
+          href="Email Templates/Are You All Right.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Cheers_.html" title="Cheers"></iframe> (<a
+          href="Email Templates/Cheers_.html">HTML</a>) (<a href="Email Templates/Cheers_.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Cheers__.html" title="Cheers 2"></iframe> (<a
+          href="Email Templates/Cheers__.html">HTML</a>) (<a href="Email Templates/Cheers__.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Congratulations.html" title="Congratulations"></iframe> (<a
+          href="Email Templates/Congratulations.html">HTML</a>) (<a href="Email Templates/Congratulations.VMG">VMG</a>)
+      </li>
+      <li><iframe src="Email Templates/Fight.html" title="Fight"></iframe> (<a
+          href="Email Templates/Fight.html">HTML</a>) (<a href="Email Templates/Fight.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Good Morning.html" title="Good Morning"></iframe> (<a
+          href="Email Templates/Good Morning.html">HTML</a>) (<a href="Email Templates/Good Morning.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Good Night.html" title="Good Night"></iframe> (<a
+          href="Email Templates/Good Night.html">HTML</a>) (<a href="Email Templates/Good Night.VMG">VMG</a>)
+      </li>
+      <li><iframe src="Email Templates/Happy.html" title="Happy"></iframe> (<a
+          href="Email Templates/Happy.html">HTML</a>) (<a href="Email Templates/Happy.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Hello.html" title="Hello"></iframe> (<a
+          href="Email Templates/Hello.html">HTML</a>) (<a href="Email Templates/Hello.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/I LOVE YOU.html" title="I LOVE YOU"></iframe> (<a
+          href="Email Templates/I LOVE YOU.html">HTML</a>) (<a href="Email Templates/I LOVE YOU.VMG">VMG</a>)
+      </li>
+      <li><iframe src="Email Templates/Let's Go Out.html" title="Let's Go Out"></iframe> (<a
+          href="Email Templates/Let's Go Out.html">HTML</a>) (<a href="Email Templates/Let's Go Out.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/NG.html" title="NG"></iframe> (<a href="Email Templates/NG.html">HTML</a>) (<a
+          href="Email Templates/NG.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Note.html" title="Note"></iframe> (<a href="Email Templates/Note.html">HTML</a>)
+        (<a href="Email Templates/Note.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/OK.html" title="OK"></iframe> (<a href="Email Templates/OK.html">HTML</a>) (<a
+          href="Email Templates/OK.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/OTSUKARE.html" title="OTSUKARE"></iframe> (<a
+          href="Email Templates/OTSUKARE.html">HTML</a>) (<a href="Email Templates/OTSUKARE.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/See You.html" title="See You"></iframe> (<a
+          href="Email Templates/See You.html">HTML</a>) (<a href="Email Templates/See You.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Sorry.html" title="Sorry"></iframe> (<a
+          href="Email Templates/Sorry.html">HTML</a>) (<a href="Email Templates/Sorry.VMG">VMG</a>)</li>
+      <li><iframe src="Email Templates/Surprised.html" title="Surprised"></iframe> (<a
+          href="Email Templates/Surprised.html">HTML</a>) (<a href="Email Templates/Surprised.VMG">VMG</a>)
+      </li>
+      <li><iframe src="Email Templates/Thank You.html" title="Thank You"></iframe> (<a
+          href="Email Templates/Thank You.html">HTML</a>) (<a href="Email Templates/Thank You.VMG">VMG</a>)
+      </li>
+      <li><iframe src="Email Templates/Trip.html" title="Trip"></iframe> (<a href="Email Templates/Trip.html">HTML</a>)
+        (<a href="Email Templates/Trip.VMG">VMG</a>)</li>
+    </ul>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+BEGIN:VMSG
+VERSION:1.1
+X-IRMC-STATUS:UNREAD
+X-NEC-STATUS:
+X-IRMC-TYPE:INET
+X-IRMC-BOX:OUTBOX
+BEGIN:VCARD
+VERSION:2.1
+N:
+TEL:
+END:VCARD
+BEGIN:VENV
+BEGIN:VCARD
+VERSION:2.1
+N:
+TEL:
+END:VCARD
+BEGIN:VENV
+BEGIN:VBODY
+From:
+To:
+Cc:
+Bcc:
+Subject:
+Date:
+MIME-Version: 1.0
+Content-Type: multipart/related;boundary="mimemk00"
+
+--mimemk00
+Content-Type: multipart/alternative; boundary="mimemk01"
+
+--mimemk01
+Content-Type: text/plain; charset=Shift_JIS
+Content-Transfer-Encoding: 8bit
+
+ 
+※重要※ 
+明日の件です
+時　間：○時○分
+場　所：△△駅前
+に集合
+　
+楽しもうね
+　
+遅れる時は連絡ください
+ 
+ 
+--mimemk01
+Content-Type: text/html; charset=Shift_JIS
+Content-Transfer-Encoding: 8bit
+
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=Shift_JIS"></HEAD><BODY bgcolor="#FFCC00"><DIV align="center"><IMG src="cid:01@700104.132618@___P903iTV@docomo.ne.jp"></DIV><DIV><FONT color="#FF0000"><FONT size="4">※重要※</FONT></FONT><IMG src="cid:02@700104.132618@___P903iTV@docomo.ne.jp"></DIV><DIV><FONT color="#2648DA">明日の件です</FONT><FONT color="#FF005A"><BLINK></BLINK></FONT></DIV><DIV><FONT color="#666666">時　間：</FONT><FONT color="#FF0000">○時○分</FONT></DIV><DIV><FONT color="#666666">場　所：</FONT><FONT color="#FF0000">△△駅前</FONT></DIV><DIV><FONT color="#2648DA">に集合</FONT></DIV><DIV>　</DIV><DIV align="center"><FONT color="#FF2ABB"><FONT size="4"><BLINK></BLINK>楽しもうね<BLINK></BLINK></FONT></FONT></DIV><DIV>　</DIV><DIV><FONT color="#666666"><FONT size="2">遅れる時は連絡ください</FONT></FONT></DIV><DIV align="right"><IMG src="cid:02@700104.132618@___P903iTV@docomo.ne.jp"></DIV><DIV><IMG src="cid:03@700104.132618@___P903iTV@docomo.ne.jp"></DIV></BODY></HTML>
+--mimemk01--
+
+--mimemk00
+Content-Type: image/gif; name="kiri_h.gif"
+Content-Transfer-Encoding: base64
+Content-Id: <01@700104.132618@___P903iTV@docomo.ne.jp>
+
+R0lGODlh8AAUAJEDAAAAAP////+ZAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFMgADACwAAAAA
+8AAUAAAC4JyPqcvtD6OctNqLs968+w+G4kiW5omm6sq27gvH8kzX9o3nr8AnvKD4/RBDnfEIEwCA
+xCXzoARInwOlkIrMajtCJ/PnBV6LvKV0uU3jxuz2GHo+f8PoaHw+tULd/L7/DxgoOEhY+GdgZXeX
+GCenh1jmBelVd4VWlfhY1ZjnxOkZ2VgWuujJOaroaCrKeNrKulpKqjrbWQuaagtpeLVnhtXVQ6TJ
+KIzJi5ysvMy8TFI8jBrtBNerdo0dAXaJ6OiTN3yXPU6+IBRtvJe+W1Tu/g4fLz9PX29/j5+vv8/f
+f18AACH5BAUyAAMALAEABgDuAAkAAAKinI+pm+H9oItmsouz3rz7D4bi2AxBSVXIeZxTSsbyTNc2
++ZqRlb+5bmrdhsSi0eNLKpesYCnYc65UFVeLic1qt9yu9wsOc4GKB6wqtehYZvOah4ZTIWT6GXhv
+L/RlV3PltxfYVwdYeHUY94eY5yeWxChVxRepQvmImam5ydk5FPjXE3r5tnh0ipqqirQzheaaErs6
+S1tL+zN5hnu1a+v7e1oAADs=
+--mimemk00
+Content-Type: image/gif; name="enpitsu.gif"
+Content-Transfer-Encoding: base64
+Content-Id: <02@700104.132618@___P903iTV@docomo.ne.jp>
+
+R0lGODlhFAAUALMJANnBZCF1PmZmZiExPiGKPuTOgiFfPgCNAAAAAP///wAAAAAAAAAAAAAAAAAA
+AAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgAJACwAAAAAFAAUAAAERTDJSau9OEvEuaYIAAxA
+gXxb16EJchjvcaIuDM9fHeOafrM+GTD2oxGFNIINmQsgnE4gwmTiZUKFrAlY0lqvoi0r9aVpIgAh
++QQJMgAJACwAAAAAFAAUAAAETTDJmZC1NGcEwAAFoo1XOWrIYaiHeFLpurqvFLN0fc/1tLc9G4sX
+/OVeCIIMWAwgnM5gBREKHU+cgjYkzW6v2A5XasOQy0GB+pxRC4IRACH5BAUKAAkALAAAAAAUABQA
+AARGMMlJq704o71zRQAwAAXiTVx6SshhuIe5tu8rnzR8e7m9Jr3YL7jTwHwzQk04CyCcziGiVCpi
+QIVsaUjSWq+h7Y/VGaNWEQA7
+--mimemk00
+Content-Type: image/gif; name="kiri_b.gif"
+Content-Transfer-Encoding: base64
+Content-Id: <03@700104.132618@___P903iTV@docomo.ne.jp>
+
+R0lGODlh8AAUAJEDAAAAAP////+ZAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJMgADACwAAAAA
+8AAUAAAC/5yPqcvtD6OctNqLs968+w+G4kiW5omm6sq27gvH8kzX9o1Dws7n/g888HqJHeAI2DGI
+iKFywDQ4BcGqdSFAJonGYXK5fUK33zG1ST5f11WjNpx1lovueTwuDQvTjWnULwYF2DQoVCh1KOhH
+uGjYiPioOMU46Vip4PUGd4eFNJTXlXf0dDeHqWmapak2tormugcr+saqSvt6G5s7q1WL6ivburtU
+Z+vJatkLimfGXIpM6RT9aSldTQ15KWmdzb2N/f2XCFg7nojF0+sVyEu9vkyaDs1Gf5N5vGnandp1
+xuy4pZ5AHHWOyZPn4F8rMQoXzhsI0YUxbAXZ0SkXKIqkiBYcZWi71jGkyJEkS5o8iTKlypUsKRQA
+ACH5BAUyAAMALAAAAADwABQAAAL/nI+py+0Po5y02ouz3rz7D4biSJbmiabqyrbuC8fyTNf2jUPB
+zuf+D5zsAETAjtFL8JLJw/IYjEorw6URaWwGstfBNqDkgqfk6fOc5XWVQ+LYKzZ8ofBq49z04t96
+PGLPB/i3N+jnRHhoKIe4qNh3VgipsFVUWfSUtUCZNjbXtQnlyRdmuQZXGlhqulmZivqn6mop2wr7
+6hRrO6tbi3vLi4o62sjaGVf3JXesyfj4FPmcKEkcTb0EfS1d7ZxtnSeo3c2d56vqZkVXzkn8uf5o
+WhafA1iFPmmfmFnHNifvH1/Pzp1V53CNopTun8IgbQreSSeOnLiFFH9Mq4gxo8aNDBw7evwIMqTI
+kREKAAA7
+--mimemk00--
+
+END:VBODY
+END:VENV
+END:VENV
+END:VMSG
